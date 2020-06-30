@@ -10,7 +10,9 @@ app_ui <- function(request) {
     golem_add_external_resources(),
     # List the first level UI elements here 
     fluidPage(
-      h1("covid19")
+      h1("covid19"),
+      mod_my_1st_module_ui("my_1st_module_ui_1"),
+      mod_my_2nd_module_ui("my_2nd_module_ui_1")
     )
   )
 }

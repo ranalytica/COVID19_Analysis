@@ -20,7 +20,7 @@ golem::fill_desc(
   author_first_name = "Richard", # Your First Name
   author_last_name = "Nacianceno", # Your Last Name
   author_email = "ranalyticas@gmail.com", # Your Email
-  repo_url = NULL # The URL of the GitHub Repo (optional) 
+  repo_url = https://github.com/ranalytica/COVID19_Analysis.git # The URL of the GitHub Repo (optional) 
 )     
 
 ## Set {golem} options ----
@@ -35,7 +35,7 @@ usethis::use_lifecycle_badge( "Experimental" )
 usethis::use_news_md( open = TRUE )
 
 ## Use git ----
-usethis::use_git()
+usethis::use_git("https://github.com/ranalytica/COVID19_Analysis.git")
 
 ## Init Testing Infrastructure ----
 ## Create a template for tests
