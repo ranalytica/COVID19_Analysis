@@ -35,8 +35,10 @@ usethis::use_lifecycle_badge( "Experimental" )
 usethis::use_news_md( open = TRUE )
 
 ## Use git ----
-usethis::use_github("https://github.com/ranalytica/COVID19_Analysis.git")
-
+usethis::use_git()
+usethis::use_github()
+usethis::browse_github_token()
+usethis::browse_github_pat()
 ## Init Testing Infrastructure ----
 ## Create a template for tests
 golem::use_recommended_tests()
